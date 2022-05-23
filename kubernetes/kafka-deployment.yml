@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: example-kafka
-          image: 'wurstmeister/kafka:2.12-2.4.0'
+          image: 'ubuntu/kafka'
           ports:
             - containerPort: 9093
               protocol: TCP
